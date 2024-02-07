@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032A84072B66F51400861349 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032A84062B66F51400861349 /* AVKit.framework */; };
+		032A84082B66F56100861349 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032A84062B66F51400861349 /* AVKit.framework */; };
+		032A840B2B69A89400861349 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032A840D2B69A89400861349 /* Localizable.strings */; };
+		034E0A2E2B6290A00096E57C /* HayaApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E0A2D2B6290A00096E57C /* HayaApplicationApp.swift */; };
+		034E0A302B6290A00096E57C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E0A2F2B6290A00096E57C /* ContentView.swift */; };
+		034E0A322B6290A10096E57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034E0A312B6290A10096E57C /* Assets.xcassets */; };
+		034E0A352B6290A10096E57C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034E0A342B6290A10096E57C /* Preview Assets.xcassets */; };
+		034E0A3F2B6290A10096E57C /* HayaApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E0A3E2B6290A10096E57C /* HayaApplicationTests.swift */; };
+		034E0A492B6290A10096E57C /* HayaApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E0A482B6290A10096E57C /* HayaApplicationUITests.swift */; };
+		034E0A4B2B6290A10096E57C /* HayaApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E0A4A2B6290A10096E57C /* HayaApplicationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034E0A3B2B6290A10096E57C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034E0A222B6290A00096E57C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034E0A292B6290A00096E57C;
+			remoteInfo = HayaApplication;
+		};
+		034E0A452B6290A10096E57C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034E0A222B6290A00096E57C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034E0A292B6290A00096E57C;
+			remoteInfo = HayaApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032A84062B66F51400861349 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		032A840C2B69A89400861349 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		032A840E2B69A89500861349 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		034E0A2A2B6290A00096E57C /* HayaApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HayaApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034E0A2D2B6290A00096E57C /* HayaApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayaApplicationApp.swift; sourceTree = "<group>"; };
+		034E0A2F2B6290A00096E57C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		034E0A312B6290A10096E57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034E0A342B6290A10096E57C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		034E0A3A2B6290A10096E57C /* HayaApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HayaApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		034E0A3E2B6290A10096E57C /* HayaApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayaApplicationTests.swift; sourceTree = "<group>"; };
+		034E0A442B6290A10096E57C /* HayaApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HayaApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		034E0A482B6290A10096E57C /* HayaApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayaApplicationUITests.swift; sourceTree = "<group>"; };
+		034E0A4A2B6290A10096E57C /* HayaApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayaApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034E0A272B6290A00096E57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032A84082B66F56100861349 /* AVKit.framework in Frameworks */,
+				032A84072B66F51400861349 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034E0A372B6290A10096E57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034E0A412B6290A10096E57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032A84052B66F51300861349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032A84062B66F51400861349 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034E0A212B6290A00096E57C = {
+			isa = PBXGroup;
+			children = (
+				032A840D2B69A89400861349 /* Localizable.strings */,
+				034E0A2C2B6290A00096E57C /* HayaApplication */,
+				034E0A3D2B6290A10096E57C /* HayaApplicationTests */,
+				034E0A472B6290A10096E57C /* HayaApplicationUITests */,
+				034E0A2B2B6290A00096E57C /* Products */,
+				032A84052B66F51300861349 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		034E0A2B2B6290A00096E57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034E0A2A2B6290A00096E57C /* HayaApplication.app */,
+				034E0A3A2B6290A10096E57C /* HayaApplicationTests.xctest */,
+				034E0A442B6290A10096E57C /* HayaApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034E0A2C2B6290A00096E57C /* HayaApplication */ = {
+			isa = PBXGroup;
+			children = (
+				034E0A2D2B6290A00096E57C /* HayaApplicationApp.swift */,
+				034E0A2F2B6290A00096E57C /* ContentView.swift */,
+				034E0A312B6290A10096E57C /* Assets.xcassets */,
+				034E0A332B6290A10096E57C /* Preview Content */,
+			);
+			path = HayaApplication;
+			sourceTree = "<group>";
+		};
+		034E0A332B6290A10096E57C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				034E0A342B6290A10096E57C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		034E0A3D2B6290A10096E57C /* HayaApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				034E0A3E2B6290A10096E57C /* HayaApplicationTests.swift */,
+			);
+			path = HayaApplicationTests;
+			sourceTree = "<group>";
+		};
+		034E0A472B6290A10096E57C /* HayaApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				034E0A482B6290A10096E57C /* HayaApplicationUITests.swift */,
+				034E0A4A2B6290A10096E57C /* HayaApplicationUITestsLaunchTests.swift */,
+			);
+			path = HayaApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034E0A292B6290A00096E57C /* HayaApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034E0A4E2B6290A10096E57C /* Build configuration list for PBXNativeTarget "HayaApplication" */;
+			buildPhases = (
+				034E0A262B6290A00096E57C /* Sources */,
+				034E0A272B6290A00096E57C /* Frameworks */,
+				034E0A282B6290A00096E57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HayaApplication;
+			productName = HayaApplication;
+			productReference = 034E0A2A2B6290A00096E57C /* HayaApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		034E0A392B6290A10096E57C /* HayaApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034E0A512B6290A10096E57C /* Build configuration list for PBXNativeTarget "HayaApplicationTests" */;
+			buildPhases = (
+				034E0A362B6290A10096E57C /* Sources */,
+				034E0A372B6290A10096E57C /* Frameworks */,
+				034E0A382B6290A10096E57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034E0A3C2B6290A10096E57C /* PBXTargetDependency */,
+			);
+			name = HayaApplicationTests;
+			productName = HayaApplicationTests;
+			productReference = 034E0A3A2B6290A10096E57C /* HayaApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		034E0A432B6290A10096E57C /* HayaApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034E0A542B6290A10096E57C /* Build configuration list for PBXNativeTarget "HayaApplicationUITests" */;
+			buildPhases = (
+				034E0A402B6290A10096E57C /* Sources */,
+				034E0A412B6290A10096E57C /* Frameworks */,
+				034E0A422B6290A10096E57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034E0A462B6290A10096E57C /* PBXTargetDependency */,
+			);
+			name = HayaApplicationUITests;
+			productName = HayaApplicationUITests;
+			productReference = 034E0A442B6290A10096E57C /* HayaApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034E0A222B6290A00096E57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					034E0A292B6290A00096E57C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					034E0A392B6290A10096E57C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 034E0A292B6290A00096E57C;
+					};
+					034E0A432B6290A10096E57C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 034E0A292B6290A00096E57C;
+					};
+				};
+			};
+			buildConfigurationList = 034E0A252B6290A00096E57C /* Build configuration list for PBXProject "HayaApplication" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 034E0A212B6290A00096E57C;
+			productRefGroup = 034E0A2B2B6290A00096E57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034E0A292B6290A00096E57C /* HayaApplication */,
+				034E0A392B6290A10096E57C /* HayaApplicationTests */,
+				034E0A432B6290A10096E57C /* HayaApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034E0A282B6290A00096E57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034E0A352B6290A10096E57C /* Preview Assets.xcassets in Resources */,
+				032A840B2B69A89400861349 /* Localizable.strings in Resources */,
+				034E0A322B6290A10096E57C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034E0A382B6290A10096E57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034E0A422B6290A10096E57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034E0A262B6290A00096E57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034E0A302B6290A00096E57C /* ContentView.swift in Sources */,
+				034E0A2E2B6290A00096E57C /* HayaApplicationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034E0A362B6290A10096E57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034E0A3F2B6290A10096E57C /* HayaApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034E0A402B6290A10096E57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034E0A4B2B6290A10096E57C /* HayaApplicationUITestsLaunchTests.swift in Sources */,
+				034E0A492B6290A10096E57C /* HayaApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034E0A3C2B6290A10096E57C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034E0A292B6290A00096E57C /* HayaApplication */;
+			targetProxy = 034E0A3B2B6290A10096E57C /* PBXContainerItemProxy */;
+		};
+		034E0A462B6290A10096E57C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034E0A292B6290A00096E57C /* HayaApplication */;
+			targetProxy = 034E0A452B6290A10096E57C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		032A840D2B69A89400861349 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032A840C2B69A89400861349 /* en */,
+				032A840E2B69A89500861349 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034E0A4C2B6290A10096E57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		034E0A4D2B6290A10096E57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034E0A4F2B6290A10096E57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HayaApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = 992X8NU68U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haya.HayaApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		034E0A502B6290A10096E57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HayaApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = 992X8NU68U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haya.HayaApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		034E0A522B6290A10096E57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haya.HayaApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HayaApplication.app/HayaApplication";
+			};
+			name = Debug;
+		};
+		034E0A532B6290A10096E57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haya.HayaApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HayaApplication.app/HayaApplication";
+			};
+			name = Release;
+		};
+		034E0A552B6290A10096E57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haya.HayaApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HayaApplication;
+			};
+			name = Debug;
+		};
+		034E0A562B6290A10096E57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haya.HayaApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HayaApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034E0A252B6290A00096E57C /* Build configuration list for PBXProject "HayaApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034E0A4C2B6290A10096E57C /* Debug */,
+				034E0A4D2B6290A10096E57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034E0A4E2B6290A10096E57C /* Build configuration list for PBXNativeTarget "HayaApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034E0A4F2B6290A10096E57C /* Debug */,
+				034E0A502B6290A10096E57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034E0A512B6290A10096E57C /* Build configuration list for PBXNativeTarget "HayaApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034E0A522B6290A10096E57C /* Debug */,
+				034E0A532B6290A10096E57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034E0A542B6290A10096E57C /* Build configuration list for PBXNativeTarget "HayaApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034E0A552B6290A10096E57C /* Debug */,
+				034E0A562B6290A10096E57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034E0A222B6290A00096E57C /* Project object */;
+}

@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  HayaApplication
+
+  Created by Haya Saleem Alhawiti on 19/07/1445 AH.
+  
+*/
+
+
+"userName" = "Haya Alhawiti";
+"location" = "Riyadh, Saudi Arabia";
+"description" = "Dedicated to Vision 2030. Innovator and advocate for excellence. Believer in turning challenges into breakthroughs. Inspired by Steve Jobs: 'The crazy ones change the world.' Turning dreams into action for a tangible impact through forward-thinking tech and revolutionary concepts. Audacious thinking and innovation drive my mission to shape the future.";
+"postsNum" = "6";
+"followersNum" = "380";
+"followingNum" = "504";
+"postsTitle" = "Posts";
+"followersTitle" = "Followers";
+"followingTitle" = "Following";
+"unfollowAccount" = "Unfollow";
+"followAccount"= "Follow";
+"privateSavedPosts" = "This user's saved posts are private";
+"savedMedia" = "Photos and videos saved by Haya Alhawiti are currently hidden";
+
+
+
+
